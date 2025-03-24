@@ -1,0 +1,123 @@
+.barra {
+font-family: Arial, Helvetica, sans-serif;
+width: 10%;
+height: 9%;
+position: fixed;
+transition: .4s all;
+z-index: 1;
+
+}
+.barra ul{
+    list-style: none;
+    padding:10px 0px;
+    text-align: center;
+
+}
+.barra li{
+    transition: .3s all;
+    padding: 10px 0px;
+}
+.barra a{
+    text-decoration: none;
+    list-style: none;
+    transition: .3s all;
+    font-size: 0px;
+    padding: 0px;
+}
+.barra h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+.barra img{
+    width: 55px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.barra:hover{
+    width: 10%;
+    height: 60%;
+    background-color:  rgba(117, 173, 218, 3);
+}
+.barra:hover h2{
+    padding: 15px;
+    font-size: 15px;
+
+}
+.barra:hover a{
+font-size: 15px;
+color: rgb(255, 255, 255);
+display: block;
+padding: 20px;
+}
+.barra:hover img{
+    height: 0px;
+}
+
+
+.barra:hover a:hover{
+    font-size: 20px;
+    padding: 30px 0px;
+    background-color: rgba(38, 133, 192, 0.98);
+
+}
+.banner {
+    width: 100%;
+    background-color: #ef4545; /* Color del banner */
+    text-align: center;
+    padding: 10px 0; /* Espaciado arriba y abajo */
+    color: rgb(255, 255, 255);
+}
+.contenido{ 
+    margin-left: 220px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.body{
+    background-color: #6fe9f444;
+    color: rgb(0, 0, 0);
+}
+.masinfo a{
+   
+    text-decoration: none;
+    margin-left: 220px;
+    font-size: 20px;
+    background-color: #ef4545;
+    list-style: none;
+    color: white;
+    padding:3px 20px 3px 20px;
+}
+.masinfo:hover a{
+    transition: .3s;
+    background-color: rgba(101, 69, 51, 0.3);
+    
+}
+.miembros{
+    margin-left: 220px;
+    font-size: 20px;
+    
+}
+.fotos {
+    margin-left: 220px;
+    
+}
+.nombres{
+    font-size: 20px;
+    color: #4fa6aefa;
+}
+.introduccion{
+    margin-left: 220px;
+    
+
+}
+.introduccion h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fotodes{
+    text-align: right;
+}
+.introduccion p{font-size: 20px;}
